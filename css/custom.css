@@ -1,0 +1,64 @@
+/**
+"The electric current has no memory, is governed only by the present, and is thus in great measure authorized to unleash improbable phenomena"
+(The Time of Roland Kayn's Cybernetic Music)
+*/
+
+@font-face {
+    font-family: 'abel';
+    src: url('../webfonts/abel/abel-regular-webfont.eot');
+    src: url('../webfonts/abel/abel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/abel/abel-regular-webfont.woff2') format('woff2'),
+         url('../webfonts/abel/abel-regular-webfont.woff') format('woff'),
+         url('../webfonts/abel/abel-regular-webfont.ttf') format('truetype'),
+         url('../webfonts/abel/abel-regular-webfont.svg#abelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+text-align:center;	
+}
+h1 {
+letter-spacing: 9px;
+font-family: abel;
+text-align: center;
+}
+h2 {
+	letter-spacing: 0px;
+font-family: abel;
+text-align: center;
+}
+p {
+
+}
+a {
+	color: #56ad09;
+}
+.noirsilence {
+	margin: 0 auto;
+	 width: 640px;
+	 height: 640px;
+	 background-color: #000;
+	 color: #fff;
+	 font-family: abel;
+
+}
+
+
+.noirsilence h1 {
+  text-shadow: 1px 3px #ccc;
+  	 font-size: 32px;
+}
+.noirsilence h2 {
+  text-shadow: 1px 3px #ccc;
+  	 font-size: 24px;
+}
+.noirsilence p {
+  text-shadow: 1px 3px #ccc;
+  	 font-size: 16px;
+}
+.noirsilence a {
+  text-shadow: 1px 3px #ccc;
+  	color: #56ad09;
+  		 font-size: 16px;
+}
