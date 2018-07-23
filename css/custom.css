@@ -13,27 +13,23 @@
          url('../webfonts/abel/abel-regular-webfont.svg#abelregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 body {
 text-align:center;	
 }
+a {color: #56ad09;}
 h1 {
 letter-spacing: 9px;
 font-family: abel;
 text-align: center;
 }
 h2 {
-	letter-spacing: 0px;
+letter-spacing: 0px;
 font-family: abel;
 text-align: center;
 }
-p {
+p {}
 
-}
-a {
-	color: #56ad09;
-}
 .noirsilence {
 	margin: 0 auto;
 	 width: 640px;
@@ -61,4 +57,27 @@ a {
   text-shadow: 1px 3px #ccc;
   	color: #56ad09;
   		 font-size: 16px;
+}
+
+.bouton {
+  position: absolute;
+  right: 20px;
+  padding: 5px 10px;
+  border: 1px solid green;
+  border-radius: 50%;
+  font-family: Abel;
+  font-size: 1.15em;
+  background: #56ad09;
+
+}
+.bouton a {
+    color: white;
+    text-decoration: none;
+}
+.bouton:hover {
+  background: white;
+
+}
+.bouton a:hover {
+    color: #56ad09;
 }
